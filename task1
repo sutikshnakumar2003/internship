@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sutikshna kumar - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 36px;
+    }
+
+    nav {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      margin: 0 15px;
+      font-size: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>sutikshna
+</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        "In the realm of endless possibilities, there exists a remarkable individual, filled with curiosity and boundless imagination. With a heart that beats to the rhythm of adventure and a mind that weaves dreams into reality, this extraordinary soul walks the path of life with grace and determination. Embracing every challenge as a stepping stone, they paint the canvas of existence with vibrant hues of passion and resilience. In a world of ordinary, they stand as a testament to the extraordinary, a beacon of inspiration to those fortunate enough to cross their path."
+      </p>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <!i am web devloper -->
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>.i am webdevloper my fist project is create a hompage a company </p>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>i have created a website forgien organziation</p>
+      </div>
+      <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>
+        You can reach me at <a href="mailto:sutikshnakumar9@gmail.com.com">sutikshnakumar9@gmail.com.com</a>.
+      </p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2023 Your Name
+  </footer>
+</body>
+</html>
